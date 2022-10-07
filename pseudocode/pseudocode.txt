@@ -1,0 +1,15 @@
+ Load up game by pressing play button.
+
+ After play button is pressed, you will be given the option to place a bet.
+
+ Once bet is accepted, dealer will begin to deal cards.
+
+ Cards when dealt, you will be given the option to either stand or hit.
+
+If your total is more than the dealers, you win.
+
+If you hit and the amount goes over 21, you lose.
+
+ If you stand and the dealers amount is more than your amount, you lose.
+
+Hello
