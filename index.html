@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlackJack</title>
-    <link href="/css/main.css" rel="stylesheet" type="text/css" />
-    <script defer src="/js/main.js"></script>
-</head>
-<body>
-    
-</body>
-</html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="css/card-deck-css/css/cardstarter.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body class="flex-ctr">
+    <div>
+      <h1 id="msg"></h1>
+      <h3>Dealer Hand</h3>
+      <section id="dealer-hand" class="card-container"></section>
+      <div>Dealer Has: <span id="dealer-total"></span></div>
+      <h3>Player Hand</h3>
+      <section id="player-hand" class="card-container"></section>
+      <div>Player Has: <span id="player-total"></span></div>
+    </div>
+    <div>
+      <section>
+        <div>Bet Amount: $<span id="bet"></span></div>

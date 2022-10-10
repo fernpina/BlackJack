@@ -1,0 +1,51 @@
+html, * {
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 4px dotted grey;
+    height: 151px;
+    min-width: 156px;
+  }
+  
+  #bet-controls {
+    padding: 5vmin;
+    border: 2px solid grey;
+  }
+  
+  button {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: grey;
+    color: white;
+  }
+  
+  body > div:first-child {
+    margin-right: 40px;
+  }
