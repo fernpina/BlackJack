@@ -16,20 +16,6 @@ html, * {
     align-items: center;
   }
   
-  /* .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 4px dotted grey;
-    height: 151px;
-    min-width: 156px;
-  } */
-  
-  #bet-controls {
-    padding: 5vmin;
-    border: 2px solid grey;
-  }
-  
   button {
     margin: 10px auto;
     padding: 10px;

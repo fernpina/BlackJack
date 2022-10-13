@@ -7,7 +7,7 @@ const MSG_LOOKUP = {
   'P': 'Player Wins!',
   'D': 'Dealer Wins',
   'PBJ': 'Player Has Blackjack 😃',
-  'DBJ': 'Dealer Has Blackjack 😔',
+  'DBJ': 'Dealer Has Blackjack 🖕',
 };
 const mainDeck = buildMainDeck();
 
@@ -144,7 +144,7 @@ function init() {
   dHand = [];
   pHand = [];
   pTotal = dTotal = 0;
-  bankroll = 500;
+  bankroll = 1000;
   bet = 0;
   render();
 }
