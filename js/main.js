@@ -49,6 +49,10 @@ function handleStand() {
     } else {
       outcome = 'P';
     }
+    if (dTotal > 21) {
+      outcome = 'P';
+      settleBet();
+    }
     settleBet();
     render();
   });

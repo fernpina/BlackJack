@@ -5,10 +5,9 @@ html, * {
   
   body {
     height: 100vh;
-  }
-  
-  h3 {
+    background-image: url("https://evoplay.games/wp-content/uploads/2021/03/Blackjack-bg.jpg");
     text-align: center;
+    color: white;
   }
   
   .flex-ctr {
@@ -17,14 +16,14 @@ html, * {
     align-items: center;
   }
   
-  .card-container {
+  /* .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border: 4px dotted grey;
     height: 151px;
     min-width: 156px;
-  }
+  } */
   
   #bet-controls {
     padding: 5vmin;
